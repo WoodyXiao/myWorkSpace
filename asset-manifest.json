@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MyWorkSpace/static/css/main.02601f11.css",
+    "main.js": "/MyWorkSpace/static/js/main.276259b8.js",
+    "index.html": "/MyWorkSpace/index.html",
+    "main.02601f11.css.map": "/MyWorkSpace/static/css/main.02601f11.css.map",
+    "main.276259b8.js.map": "/MyWorkSpace/static/js/main.276259b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02601f11.css",
+    "static/js/main.276259b8.js"
+  ]
+}
