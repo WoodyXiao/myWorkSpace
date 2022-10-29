@@ -105,7 +105,9 @@ function TodoList() {
     }, [boards])
 
     return (
-        <div className="App">
+        <div className="App" style={{
+            marginTop:'60px'
+        }}>
             <div className="app_navbar">
                 <h2>To Do List</h2>
             </div>

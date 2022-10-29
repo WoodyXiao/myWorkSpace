@@ -1,0 +1,87 @@
+.cardInfo {
+  padding: 30px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 600px;
+}
+.cardInfo .cardInfo_box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cardInfo .cardInfo_box .cardInfo_box_title {
+  font-weight: bold;
+  font-size: 1.3rem;
+  display: flex;
+  gap: 10px;
+}
+.cardInfo .cardInfo_box .cardInfo_box_body {
+  width: fit-content;
+}
+.cardInfo .cardInfo_box .cardInfo_box_body input {
+  outline: none;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 1rem;
+}
+.cardInfo .cardInfo_box .cardInfo_box_colors {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.cardInfo .cardInfo_box .cardInfo_box_colors li {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  list-style: none;
+}
+.cardInfo .cardInfo_box .cardInfo_box_colors li:hover {
+  cursor: pointer;
+}
+.cardInfo .cardInfo_box .cardInfo_box_colors .active {
+  border: 3px solid #d21818;
+}
+.cardInfo .cardInfo_box .cardInfo_box_labels {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.cardInfo .cardInfo_box .cardInfo_box_progress-bar {
+  height: 10px;
+  border-radius: 20px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+.cardInfo .cardInfo_box .cardInfo_box_progress-bar .cardInfo_box_progress {
+  height: 10px;
+  border-radius: 20px;
+  background-color: #1379ec;
+}
+.cardInfo .cardInfo_box .cardInfo_box_progress-bar .cardInfo_box_progress-active {
+  background-color: limegreen;
+}
+.cardInfo .cardInfo_box .cardInfo_box_list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cardInfo .cardInfo_box .cardInfo_box_list .cardInfo_task {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 8px 0;
+}
+.cardInfo .cardInfo_box .cardInfo_box_list .cardInfo_task p {
+  flex: 1;
+  line-height: 20px;
+}
+.cardInfo .cardInfo_box .cardInfo_box_list .cardInfo_task input, .cardInfo .cardInfo_box .cardInfo_box_list .cardInfo_task svg {
+  height: 18px;
+  width: 18px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=CardInfo.css.map */

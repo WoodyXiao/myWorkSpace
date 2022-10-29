@@ -8,10 +8,11 @@
   border-radius: 40px;
   font-size: 14px;
   width: fit-content;
-
-  & svg {
-    height: 16px;
-    width: 16px;
-    cursor: pointer;
-  }
 }
+.chip svg {
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=Chip.css.map */

@@ -1,0 +1,21 @@
+.calendar {
+  height: 100vh;
+  width: auto;
+}
+.calendar .calendar_navbar {
+  width: 100%;
+  padding: 20px 0;
+  margin-left: 20px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+}
+.calendar .calendar_navbar h2 {
+  margin-right: 20px;
+}
+.calendar .calendar_navbar svg {
+  color: grey;
+  width: 20px;
+  height: 20px;
+}
+
+/*# sourceMappingURL=Calendar.css.map */

@@ -1,0 +1,60 @@
+.card {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card:hover {
+  opacity: 1;
+}
+.card:hover .card_top svg {
+  opacity: 1;
+}
+.card .card_top {
+  display: flex;
+  gap: 5px;
+}
+.card .card_top svg {
+  opacity: 0;
+  transition: 20ms;
+}
+.card .card_top .card_top_labels {
+  flex: 1;
+  display: flex;
+  gap: 10px;
+}
+.card .card_top .card_top_more {
+  position: relative;
+  cursor: pointer;
+}
+.card .card_top .card_top_more .card_dropdown {
+  background-color: #fff;
+  width: 130px;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 1px 0 20px rgba(0, 0, 0, 0.05);
+}
+.card .card_top .card_top_more .card_dropdown p {
+  cursor: pointer;
+}
+.card .card_title {
+  font-weight: bold;
+}
+.card .card_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card .card_footer p {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.card .card_footer svg {
+  width: 18px;
+  height: 18px;
+}
+
+/*# sourceMappingURL=Card.css.map */

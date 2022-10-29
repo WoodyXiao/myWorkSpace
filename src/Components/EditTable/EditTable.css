@@ -1,0 +1,52 @@
+.editable {
+  width: 100%;
+}
+.editable .board_cards_add {
+  background-color: #fff;
+  border-radius: 5px;
+}
+.editable .editable_display {
+  background-color: #f8f8f8;
+  border-radius: 3px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.editable .editable_display:hover {
+  background-color: #ccc;
+}
+.editable .editable_edit {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.editable .editable_edit input {
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #1379ec;
+  padding: 10px;
+  font-size: 1rem;
+}
+.editable .editable_edit .editable_edit_footer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.editable .editable_edit .editable_edit_footer button {
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: #1379ec;
+  transition: 200ms;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.editable .editable_edit .editable_edit_footer button:hover {
+  background-color: #0765d1;
+}
+.editable .editable_edit .editable_edit_footer svg {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=EditTable.css.map */
