@@ -4,10 +4,16 @@ This is a personal react project that included toDoList and eventScheduler.
 
 ### How to run
 
-`git clone https://github.com/WoodyXiao/myWorkSpace.git`
+```sh 
+   git clone https://github.com/WoodyXiao/myWorkSpace.git
+```
 
 #### Install Node.js: https://nodejs.org/en/
 
-`npm install`
+```sh 
+   npm install
+```
 
-`npm start`
+```sh 
+   npm start
+```
